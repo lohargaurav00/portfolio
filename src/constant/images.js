@@ -31,6 +31,10 @@ import bolt from "../assets/bolt.png";
 import nb from "../assets/nb.png";
 import skype from "../assets/skype.png";
 import spotify from "../assets/spotify.png";
+import Gaurav from "../assets/Gaurav.png"
+import express from "../assets/express.png"
+import mongodb from "../assets/mongodb.png"
+import MyProfile from "../assets/MyProfile.png"
 
 export default {
   email,
@@ -66,4 +70,8 @@ export default {
   nb,
   skype,
   spotify,
+  Gaurav,
+  express,
+  mongodb,
+  MyProfile
 };

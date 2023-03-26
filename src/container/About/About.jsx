@@ -1,23 +1,23 @@
 import { motion } from "framer-motion";
 import React, { useEffect, useState } from "react";
 import "./About.scss";
-import {urlFor , client } from "../../Client"
-import {AppWrap} from "../../Wrapper"
+import { urlFor, client } from "../../Client";
+import { AppWrap, MotionWrap } from "../../Wrapper";
 
 function About() {
-  const [abouts, setAbouts] = useState([])
+  const [abouts, setAbouts] = useState([]);
 
   useEffect(() => {
-    const query = '*[_type == "abouts"]'
-    client.fetch(query)
-    .then((data)=> setAbouts(data))
-
-  }, [])
-  
+    const query = '*[_type == "abouts"]';
+    client.fetch(query).then((data) => setAbouts(data));
+  }, []);
 
   return (
     <>
-      <h2 className="head-text">I Know that <span>Good Development</span> <br />Means <span>Good Business</span></h2>
+      <h2 className="head-text">
+        I Know that <span>Good Development</span> <br />
+        Means <span>Good Business</span>
+      </h2>
       <div className="app__profiles">
         {abouts.map((about, index) => (
           <motion.div
@@ -41,4 +41,8 @@ function About() {
   );
 }
 
-export default AppWrap(About, "about");
+export default AppWrap(
+  MotionWrap(About, "app__about"),
+  "about",
+  "app__whitebg"
+);

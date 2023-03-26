@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "./Work.scss";
 import { AiFillEye, AiFillGithub } from "react-icons/ai";
-import { animate, motion } from "framer-motion";
-import { AppWrap } from "../../Wrapper";
+import { motion } from "framer-motion";
+import { AppWrap, MotionWrap } from "../../Wrapper";
 import { urlFor, client } from "../../Client";
 
 const Work = () => {
@@ -19,7 +19,20 @@ const Work = () => {
     });
   }, []);
 
-  const handleWorkFilter = () => {};
+  const handleWorkFilter = (item) => {
+    setActiveFilter(item);
+    setAnimateCard([{ y: 100, opacity: 0 }]);
+
+    setTimeout(() => {
+      setAnimateCard([{ y: 0, opacity: 1 }]);
+
+      if (item === "All") {
+        setFilterWork(works);
+      } else {
+        setFilterWork(works.filter((work) => work.tags.includes(item)));
+      }
+    }, 500);
+  };
   return (
     <>
       <h2 className="head-text">
@@ -97,4 +110,8 @@ const Work = () => {
   );
 };
 
-export default AppWrap(Work,'work');
+export default AppWrap(
+  MotionWrap(Work, "app__works"),
+  "work",
+  "app__primarybg"
+);
