@@ -35,6 +35,7 @@ import Gaurav from "../assets/Gaurav.png"
 import express from "../assets/express.png"
 import mongodb from "../assets/mongodb.png"
 import MyProfile from "../assets/MyProfile.png"
+import MyProfile1 from "../assets/MyProfile1.png"
 
 export default {
   email,
@@ -73,5 +74,6 @@ export default {
   Gaurav,
   express,
   mongodb,
-  MyProfile
+  MyProfile,
+  MyProfile1
 };
