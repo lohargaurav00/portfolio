@@ -9,7 +9,7 @@ import "./Testimonials.scss";
 const Testimonials = () => {
   const [brands, setBrands] = useState([]);
   const [testimonials, setTestimonials] = useState([]);
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [currentIndex, setCurrentIndex] = useState(null);
   const test = testimonials[currentIndex];
 
   useEffect(() => {
@@ -40,7 +40,7 @@ const Testimonials = () => {
             <div
               className="app__flex"
               onClick={() =>
-                handleClick(currentIndex === 0 ? testimonials.length - 1: currentIndex - 1)}
+                handleClick(currentIndex === null ? testimonials.length - 1: currentIndex - 1)}
             ><HiChevronLeft/></div>
             <div
               className="app__flex"
