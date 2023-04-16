@@ -7,9 +7,9 @@ import { motion } from "framer-motion";
 function Navbar() {
   const [toggle, setToggle] = useState(false);
 
-  const handleOnClick = e => {
+  const handleOnClick = (e) => {
     e.stopPropagation();
-    setToggle(prevState => !prevState);
+    setToggle((prevState) => !prevState);
   };
 
   return (
@@ -26,7 +26,7 @@ function Navbar() {
         ))}
       </ul>
       <div className="app__navbar-menu">
-         <HiMenuAlt4 onClick={handleOnClick} />
+        <HiMenuAlt4 onClick={handleOnClick} />
         {toggle && (
           <motion.div
             initial={{ width: 0 }}
