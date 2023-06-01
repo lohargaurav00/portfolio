@@ -31,11 +31,12 @@ import bolt from "../assets/bolt.png";
 import nb from "../assets/nb.png";
 import skype from "../assets/skype.png";
 import spotify from "../assets/spotify.png";
-import Gaurav from "../assets/Gaurav.png"
-import express from "../assets/express.png"
-import mongodb from "../assets/mongodb.png"
-import MyProfile from "../assets/MyProfile.png"
-import MyProfile2 from "../assets/MyProfile2.png"
+import Gaurav from "../assets/Gaurav.png";
+import express from "../assets/express.png";
+import mongodb from "../assets/mongodb.png";
+import MyProfile from "../assets/MyProfile.png";
+import MyProfile2 from "../assets/MyProfile2.png";
+import portfolio from "../assets/portfolio.png";
 
 export default {
   email,
@@ -74,5 +75,6 @@ export default {
   express,
   mongodb,
   MyProfile,
-  MyProfile2
+  MyProfile2,
+  portfolio,
 };
