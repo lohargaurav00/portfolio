@@ -2,10 +2,12 @@
 
 Welcome to my stunning portfolio website! This website showcases my work, skills, and achievements in a visually appealing and user-friendly manner. It is built using React.js, Sass, and Sanity CMS for the backend.
 
-<div style="text-align: center;">
+<p align="center">
     <img src="./src/assets/portfolio.png" alt="portfolio" height="380px" width="750px">
-</div>
+<p/>
+
 ## Table of Contents
+
 - [Introduction](#introduction)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
@@ -36,8 +38,8 @@ This portfolio website is designed to provide visitors with an immersive experie
 
 To run the portfolio website locally, follow these steps:
 
-1. Clone the repository: `git clone [repository_url]`
-2. Navigate to the project directory: `cd my-stunning-portfolio-website`
+1. Clone the repository: `git clone https://github.com/lohargaurav00/portfolio`
+2. Navigate to the project directory: `cd portfolio`
 3. Install the dependencies: `npm install`
 
 ## Usage
