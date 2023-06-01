@@ -56,12 +56,3 @@ Contributions to this portfolio website are welcome! If you find any bugs or hav
 
 This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code as per the terms of the license.
 
-The website will be accessible at `http://localhost:3000` in your web browser.
-
-## Contributing
-
-Contributions to this portfolio website are welcome! If you find any bugs or have suggestions for improvements, please feel free to open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code as per the terms of the license.
