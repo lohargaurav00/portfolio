@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 
-import { urlFor, client } from "../../Client";
+import { client } from "../../Client";
 import { AppWrap, MotionWrap } from "../../Wrapper";
 import { images } from "../../constant";
 import "./Footer.scss";
@@ -12,6 +12,7 @@ const Footer = () => {
     message: "",
   });
   const [isFormSubmitted, setIsFormSubmitted] = useState(false);
+  // eslint-disable-next-line no-unused-vars
   const [loading, setLoading] = useState(false);
 
   const { name, email, message } = formData;

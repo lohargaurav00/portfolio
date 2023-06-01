@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 import email from "../assets/email.png";
 import mobile from "../assets/mobile.png";
 import api from "../assets/api.png";
@@ -21,7 +22,6 @@ import about01 from "../assets/about01.png";
 import about02 from "../assets/about02.png";
 import about03 from "../assets/about03.png";
 import about04 from "../assets/about04.png";
-import profile from "../assets/profile.png";
 import circle from "../assets/circle.svg";
 import logo from "../assets/logo.png";
 import adidas from "../assets/adidas.png";
@@ -35,7 +35,7 @@ import Gaurav from "../assets/Gaurav.png"
 import express from "../assets/express.png"
 import mongodb from "../assets/mongodb.png"
 import MyProfile from "../assets/MyProfile.png"
-import MyProfile1 from "../assets/MyProfile1.png"
+import MyProfile2 from "../assets/MyProfile2.png"
 
 export default {
   email,
@@ -61,7 +61,6 @@ export default {
   about02,
   about03,
   about04,
-  profile,
   circle,
   logo,
   adidas,
@@ -75,5 +74,5 @@ export default {
   express,
   mongodb,
   MyProfile,
-  MyProfile1
+  MyProfile2
 };
