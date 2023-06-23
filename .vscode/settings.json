@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/5b8affbf-b9e9-46bb-93fc-f5edbb0d6a1e/resourceGroups/Portfolio/providers/Microsoft.Web/sites/gauravdlohar",
+    "appService.deploySubpath": "build"
+}
