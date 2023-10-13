@@ -27,3 +27,13 @@
 
 # Dotenv and similar local-only files
 *.local
+
+
+# Yarn Modern
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
