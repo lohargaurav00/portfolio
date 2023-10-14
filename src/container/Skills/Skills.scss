@@ -38,8 +38,8 @@
   transition: all 0.3s ease-in-out;
 
   div {
-    width: 90px;
-    height: 90px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     background-color: #fef4f5;
 
@@ -96,14 +96,15 @@
   margin: 1rem 0;
 }
 
-.app__skills-exp-woks {
-  flex: 1;
+.app__skills-exp-works {
+  // flex: 1;
   .app__skills-exp-work {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     margin-bottom: 1rem;
+    cursor: pointer;
 
     h4 {
       font-weight: 500;
@@ -138,6 +139,7 @@
   text-align: center;
   line-height: 1.5;
   opacity: 1;
+
   @media screen and (min-width: 2000px) {
     font-size: 1.75rem;
     max-width: 500px;
