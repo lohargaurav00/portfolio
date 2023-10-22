@@ -3,18 +3,20 @@
 Welcome to my stunning portfolio website! This website showcases my work, skills, and achievements in a visually appealing and user-friendly manner. It is built using React.js, Sass, and Sanity CMS for the backend.
 
 <p align="center">
-    <img src="./src/assets/portfolio.png" alt="portfolio" height="380px" width="750px">
-<p/>
+  <img src="../public/assets/portfolio.png" alt="portfolio" height="380px" width="750px"/>
+</p>
 
 ## Table of Contents
 
-- [Introduction](#introduction)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [My Stunning Portfolio Website](#my-stunning-portfolio-website)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Features](#features)
+  - [Technologies Used](#technologies-used)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [License](#license)
 
 ## Introduction
 
@@ -55,4 +57,3 @@ Contributions to this portfolio website are welcome! If you find any bugs or hav
 ## License
 
 This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code as per the terms of the license.
-
